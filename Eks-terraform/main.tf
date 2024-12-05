@@ -33,7 +33,7 @@ data "aws_subnets" "public" {
   }
   filter {
     name   = "availability-zone"
-    values = ["us-east-1a", "us-east-1b", "us-east-1c", "us-east-1d", "us-east-1f"]
+    values = ["us-east-2a", "us-east-3b", "us-east-3c"]
   }
 }
 #cluster provision
